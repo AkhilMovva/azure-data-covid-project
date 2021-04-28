@@ -16,10 +16,16 @@
         "sourceRelativeUrl": "/AkhilMovva/azure-data-covid-project/blob/master/raw/main/ecdc_data/testing.csv",
         "sinkFileName": "testing.csv"
     },
+    
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com",
+        "sourceRelativeUrl": "/AkhilMovva/azure-data-covid-project/master/raw/main/ecdc_data/testing.csv",
+        "sinkFileName": "testing.csv"
+    },
 
     {
-        "sourceBaseURL":"https://github.com",
-        "sourceRelativeUrl": "/AkhilMovva/azure-data-covid-project/blob/master/raw/main/ecdc_data/country_response.csv",
+        "sourceBaseURL":"https://raw.githubusercontent.com",
+        "sourceRelativeUrl": "/AkhilMovva/azure-data-covid-project/master/raw/main/ecdc_data/country_response.csv",
         "sinkFileName": "country_response.csv"
     }
 ]
